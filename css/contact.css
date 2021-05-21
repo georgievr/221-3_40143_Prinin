@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color: chartreuse;
+    color: yellow;
     font-family: monospace;
 }
 
@@ -30,6 +30,17 @@ div.text{
 body > header > div > img{
     height: 60%;
     width: 60%;
+}
+
+body > section > div > img{
+    height: 50%;
+    width: 50%;
+}
+
+div.section_image{
+    width: 20%;
+    display: inline-block;
+    float: left;
 }
 
 li {
